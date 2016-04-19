@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Испытание: форма регистрации</title>
+</head>
+<body>
+<h1>Регистрация</h1>
+
+<form action="https://echo.htmlacademy.ru" method="post">
+    Ваш логин (email):
+    <br><input type="text" id="login" name="5"><br>
+    Пароль:
+    <br><input type="text" id="password" name="1"><br>
+    Информация о себе:
+    <br><textarea name="comment" id="comment-field" rows="3"cols="20"></textarea><br>
+    <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+    <label for="subscribe-field">Подписаться на рассылку</label><br>
+
+    <input type="submit" value="Зарегистрироваться">
+</form> <br>
+<p><i>Любимые дни недели:</i></p>
+<select name="days" multiple size="7">
+    <option>Понедельник</option>
+    <option>Вторник</option>
+    <option>Среда</option>
+    <option>Четверг</option>
+    <option>Пятница</option>
+    <option>Суббота</option>
+    <option selected>Воскресенье</option>
+</select>
+
+<h1>Профиль</h1>
+
+<form action="https://htmlbook.ru/" method="post" enctype="multipart/form-data">
+    <p>Выберите изображение:</p>
+    <input type="file" name="avatar"><br>
+
+    <input type="submit" value="Загрузить">
+</form>
+</body>
+</html>
